@@ -1,0 +1,129 @@
+body {
+    text-align: center;
+   
+}
+
+#image1 {
+    border-radius: 100%;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 50px
+}
+
+#paragraph1 {
+
+    font-family: cursive, lucida handwriting;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+h1{
+    font-family: "Gluten";
+}
+.menu{
+    list-style: none;
+    float: left;
+    cursor: pointer;
+    background-color: black;
+    font-size: 20px;
+    position: fixed;
+    width: 100%;
+    margin-top: 0px;
+}
+.link{
+    color: white;
+    display: inline;
+    padding: 10px;
+    font-size:30px; 
+    font-family: Lobster;
+}
+.link:hover{
+    background-color: white;
+    font-size: 35px;
+}
+.welcome{
+    padding:70px;
+    text-align: center;
+     background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    
+}
+#About{
+    background-color: pink;
+    margin-top: -50px;
+    padding-top: 20px;
+}
+.line{
+    height: 5px;
+    background-color: black;
+    width: 200px;
+    margin: 8px auto; 
+}
+#Mywork a, #References a{
+    font-size: :30px;
+    
+    
+}
+
+.button {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+a
+{
+  text-decoration:none;
+}
+#Refrences{
+    background: pink;
+}
+#My work a {
+    font-size: :30px;
+
+}
+
+#References a {
+    font-size: :30px;
+
+}
+
+#picture {
+    width: auto;
+    height: 300px;
+    border-radius: 0%;
+    margin: 20px;
+}
+
+.inspiration {
+    background: #373B44;
+    background: linear-gradient(#4286f4, #373B44);
+    padding-top: 20px;
+}
+
+img {
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+}
+
+img:hover {
+    /*Give transform property to scale to 0.9*/
+transform:scale(0.9);
+    
+}
+#MyInspiration img{
+    width: 400px;
+    height: 350px;
+    border-color:black;
+}
+#contact{
+    background-color: hotpink;
+}
+a{
+    color: lightblue;
+}
